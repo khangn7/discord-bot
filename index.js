@@ -38,7 +38,7 @@ const bot_repsonses = {
 
 client.on("messageCreate", message => { 
     
-    console.log(message)
+    console.log(message);
 
     if(message.channelId !== CHANNEL_IDS["testing"]){ return; }
 
